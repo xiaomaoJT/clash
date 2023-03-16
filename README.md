@@ -26,6 +26,20 @@
 
 #### 线上体验地址：[xiaomao-clash](https://static-mp-4c1955c1-4e3f-4ed7-9f2b-ea2165e28195.next.bspapp.com/xiaomao-clash/index.html#/)
 
+> 须知：因XMC所部署的为临时测试服务器，无法承受大规模的IP访问，若您访问时出现错误，请稍后再试或移步XiaoMaoJT/clash仓库中下载已生成的打包文件，解压后打开xiaomao-clash文件夹，使用浏览器（不支持低内核浏览器，若页面空白，请尝试使用chrome浏览器）访问index.html文件（或将index.html文件拖至浏览器标签栏）即可于本地电脑正常访问，此方式下支持离线访问。感谢您的支持与理解。
+
+
+
+------
+
+#### [🌈 XiaoMaoClash配置图文教程](https://mp.weixin.qq.com/s?__biz=MzI3MjE3NTc4OA==&mid=2247485304&idx=1&sn=90da0844b5e8ca813c1480988ce357a4&chksm=eb37c0bbdc4049ad116672a96b21a6825a1ff728d395f0133e16fd0a63191017db57be69cf4f#rd)
+
+#### [⛱ 使用教程](https://github.com/xiaomaoJT/clash/tree/main/yaml)
+
+------
+
+
+
 #### 懒人配置：[🏖 **XiaoMao_Clash 配置 - 科学网**](https://raw.githubusercontent.com/xiaomaoJT/clash/main/yaml/Clash_XiaoMao.yaml)
 
 #### 懒人配置：[🏖 **XiaoMao_Clash 配置 - 国内网**](https://raw.githubusercontent.com/xiaomaoJT/clash/main/yaml/Clash_Cdn_XiaoMao.yaml)
