@@ -1,0 +1,14 @@
+proxies:
+  - {
+      "name": "🇦🇶€001•🎟XiaoMao-Forever",
+      "type": "",
+      "server": "",
+      "port": "",
+      "cipher": "",
+      "uuid": "",
+      "alterId": "",
+      "tls": "",
+      "network": "",
+      "ws-opts": { "path": "", "headers": { "Host": "" } },
+      "servername": "",
+    }
