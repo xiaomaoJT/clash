@@ -4,6 +4,8 @@
 
 **最新更新时间：2023年03月20日**
 
+[**更新日志**](https://github.com/xiaomaoJT/clash/blob/main/UPDATE.md)
+
 ------
 
 
