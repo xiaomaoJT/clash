@@ -4,7 +4,7 @@
 
 **当前版本：XMC@1.8**
 
-**最新更新时间：2023年04月18日**
+**最新更新时间：2023年04月27日**
 
 [**更新日志**](https://github.com/xiaomaoJT/clash/blob/main/UPDATE.md)
 
@@ -38,9 +38,9 @@
 
 ------
 
-#### [🌈 XiaoMaoClash配置图文教程](https://mp.weixin.qq.com/s?__biz=MzI3MjE3NTc4OA==&mid=2247485304&idx=1&sn=90da0844b5e8ca813c1480988ce357a4&chksm=eb37c0bbdc4049ad116672a96b21a6825a1ff728d395f0133e16fd0a63191017db57be69cf4f#rd)
-
 #### [⛱ 使用教程](https://github.com/xiaomaoJT/clash/tree/main/yaml)
+
+![【帽教程】Clash配置教程](https://github.com/xiaomaoJT/clash/tree/main//【帽教程】Clash配置教程.png)
 
 ------
 
