@@ -40,7 +40,7 @@
 
 #### [⛱ 使用教程](https://github.com/xiaomaoJT/clash/tree/main/yaml)
 
-![【帽教程】Clash配置教程](https://github.com/xiaomaoJT/clash/tree/main//【帽教程】Clash配置教程.png)
+![【帽教程】Clash配置教程](https://github.com/xiaomaoJT/clash/blob/main/【帽教程】Clash配置教程.png?raw=true)
 
 ------
 
