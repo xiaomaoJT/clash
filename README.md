@@ -2,9 +2,9 @@
 
 用于 XiaoMao_Clash 自定义配置生成。
 
-**当前版本：XMC@1.8**
+**当前版本：XMC@1.9*
 
-**最新更新时间：2023年04月27日**
+**最新更新时间：2023年05月10日**
 
 [**更新日志**](https://github.com/xiaomaoJT/clash/blob/main/UPDATE.md)
 
