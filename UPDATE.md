@@ -10,6 +10,21 @@
 
 
 
+> 20261006
+
+- XMC @2.2 · 2026 重构版
+- 全新亮色 UI 重构，去除首屏广告弹窗
+- 第一步支持「链接订阅」直接解析（dev 模式内置 /sub-fetch 代理，或自备 CORS 代理前缀）
+- 生成配置时弹窗可选书写格式：Clash / FLClash（XiaoMao_Clash_MoJie 行内 flow 格式）
+- 节点名称、策略组顺序支持自定义
+- 策略组顺序支持拖动排序（HTML5 原生拖拽）
+- 步骤条支持点击切换步骤，最后一步也可回退
+- 分流规则 CDN 前缀默认 cdn.jsdmirror.com，支持自定义
+- 兼容 XiaoMao_Clash 静态版与 proxy-providers 在线更新格式
+- 仓库新增完整 Vue 前端源码（src / public / vue.config.js 等）
+
+
+
 > 20230906
 
 - XMC @2.1
@@ -37,6 +52,7 @@
 
 - XMC @1.8
 - 新增XMC默认策略 openai
+
 
 
 > 20230404
@@ -79,7 +95,6 @@
 
 
 
-
 > 20230317
 
 - XMC @1.3
@@ -112,4 +127,3 @@
 > 20230314
 
 - XiaoMao-clash功能上线
-
