@@ -2,11 +2,13 @@
 
 用于 XiaoMao_Clash 自定义配置生成。
 
-**当前版本：XMC@2.01**
+**当前版本：XMC@2.2 · 2026 重构版**
 
-**最新更新时间：2023年09月06日**
+**最新更新时间：2026 年 10 月 06 日**
 
 [**更新日志**](https://github.com/xiaomaoJT/clash/blob/main/UPDATE.md)
+
+🖼️ [XMC@2.2 更新概览与功能图](./update-overview.png)
 
 ------
 
@@ -38,9 +40,52 @@
 
 ------
 
+
+
+#### ✨ 2026 重构版 · 新特性（XMC@2.2）
+
+- 🔗 **链接订阅直接解析**：第一步支持粘贴订阅链接（如机场 Clash 订阅），自动拉取并解析，无需再手动上传文件。
+- 📝 **书写格式弹窗可选**：生成配置时弹窗选择书写格式，支持 **Clash** 与 **FLClash**（XiaoMao_Clash_MoJie 行内 flow 格式）两种。
+- 🎨 **亮色 UI 全面重构**：去除首屏广告弹窗，重做使用教程按钮与各类操作按钮，整体更灵动、可读性更好。
+- 🧩 **节点名 / 策略顺序自定义**：节点命名规则、策略组排序均可在页面中自由配置。
+- 🖱️ **策略组拖动排序**：策略组顺序支持鼠标拖拽调整，所见即所得。
+- 🧭 **步骤条可点可回退**：步骤条支持点击切换步骤，最后一步也可回退修改。
+- ☁️ **分流 CDN 前缀可配置**：规则分流的 CDN 前缀默认 `cdn.jsdmirror.com`，支持页面内自定义修改。
+- 🧱 **兼容新格式**：兼容 XiaoMao_Clash 静态版，以及基于 `proxy-providers` 的在线更新格式。
+
+------
+
+
+
 #### [⛱ 使用教程](https://github.com/xiaomaoJT/clash/tree/main/yaml)
 
 ![【帽教程】Clash配置教程](https://github.com/xiaomaoJT/clash/blob/main/【帽教程】Clash配置教程.png?raw=true)
+
+------
+
+
+
+#### 🔧 源码与本地开发
+
+本仓库现已包含完整的 Vue 前端源码，可自行构建与二次开发。
+
+```bash
+# 1. 安装依赖（首次或依赖变更时）
+npm install
+
+# 2. 本地开发预览（默认 http://localhost:5555）
+npm run serve
+#   · 打开后第一步即可粘贴「订阅链接」直接解析
+#   · 订阅解析由 devServer 内置的 /sub-fetch 代理完成，需在本机 npm run serve 下使用
+
+# 3. 构建静态站点（产物输出到 xiaomao-clash/ 目录）
+npm run build
+```
+
+> **关于订阅链接解析的说明**
+> 机场订阅接口通常不返回跨域头（Access-Control-Allow-Origin），浏览器在「纯静态部署」场景下无法直接跨域拉取。
+> - 本地开发：`npm run serve` 已内置 `/sub-fetch` 代理，可直接解析；
+> - 纯静态部署：可在页面「高级设置」中填写自备的 CORS 代理前缀，或改用「上传配置文件」方式。
 
 ------
 
@@ -54,9 +99,9 @@
 
 #### 将文件夹 xiaomao-clash 部署于服务器或本地即可访问。
 
-服务器：xxxx/xiaomao-clash/index.html
-
-本地：file:///xxxxx/xiaomao-clash/index.html
+- 服务器：`xxxx/xiaomao-clash/index.html`
+- 本地：`file:///xxxxx/xiaomao-clash/index.html`
+- 也可执行 `npm run build` 后，将 `xiaomao-clash/` 目录整体上传到任意静态空间。
 
 ---
 
